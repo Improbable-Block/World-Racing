@@ -1,11 +1,11 @@
-#  🌐 Soramitsu Ecosystem
+#  🌐 blockdaemon Ecosystem
 
 
 # 🚀 Overview
 
- Soramitsu is one of the leading blockchain infrastructure providers for enterprises and financial institutions. Rather than building consumer crypto applications, it provides the infrastructure that powers banks, exchanges, custodians, fintech companies, and Web3 developers.
+ blockdaemon is one of the leading blockchain infrastructure providers for enterprises and financial institutions. Rather than building consumer crypto applications, it provides the infrastructure that powers banks, exchanges, custodians, fintech companies, and Web3 developers.
 
-Our solutions combine cutting-edge Web3 technologies with engaging gaming experiences, creating scalable platforms for poker, betting, tournaments, and player-driven economies. Through decentralized infrastructure, transparent game mechanics, and secure digital transactions, Soramitsu is helping shape the future of online gaming by fostering fairness, player ownership, and sustainable community growth within the next generation of blockchain-powered entertainment ecosystems.
+Our solutions combine cutting-edge Web3 technologies with engaging gaming experiences, creating scalable platforms for poker, betting, tournaments, and player-driven economies. Through decentralized infrastructure, transparent game mechanics, and secure digital transactions, blockdaemon is helping shape the future of online gaming by fostering fairness, player ownership, and sustainable community growth within the next generation of blockchain-powered entertainment ecosystems.
 
 ---
 
@@ -207,7 +207,7 @@ http://localhost:7777
 ```
 # 🔗 Wallet Integration
 
-Soramitsu supports:
+blockdaemon supports:
 
 - MetaMask Wallet
 - Coinbase Wallet
@@ -255,7 +255,7 @@ Players can securely:
 
 # 🔐 Security
 
-Soramitsu follows modern Web3 security practices:
+blockdaemon follows modern Web3 security practices:
 
 - Wallet-based authentication
 - Encrypted sessions
@@ -318,7 +318,7 @@ MIT License
 
 # 👨‍💻 Developer
 
-Built with passion by the Soramitsu Team.
+Built with passion by the blockdaemon Team.
 
 ---
 
