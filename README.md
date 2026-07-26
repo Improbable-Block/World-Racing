@@ -1,142 +1,348 @@
-# 🎰 EverPlay - Web3 Unified Ecosystem 🎮
-<img width="1983" height="793" alt="ChatGPT Image Aug 4, 2026, 01_03_51 PM" src="https://github.com/user-attachments/assets/e9181a7b-602e-43ea-ad8c-181c1bbc39cf" />
-
-**Staking • Sports Betting • Roulette • Lottery • Slot Game**
-A modern crypto-powered gaming platform supporting multi-chain tokens and exciting on-chain games.
-
----
+#  🌐 Blockdaemon Ecosystem
 
 
-## 💰 Supported Cryptocurrencies
+# 🚀 Overview
 
-* ₿ Bitcoin (BTC)
-* Ξ Ethereum (ETH)
-* $ Abstract
-* 🟡 Binance Smart Chain (BSC)
-* 🔷 Solana (SOL)
-* 💵 USDT (All major chains)
+ Blockdaemon is one of the leading blockchain infrastructure providers for enterprises and financial institutions. Rather than building consumer crypto applications, it provides the infrastructure that powers banks, exchanges, custodians, fintech companies, and Web3 developers.
+
+Our solutions combine cutting-edge Web3 technologies with engaging gaming experiences, creating scalable platforms for poker, betting, tournaments, and player-driven economies. Through decentralized infrastructure, transparent game mechanics, and secure digital transactions, Blockdaemon is helping shape the future of online gaming by fostering fairness, player ownership, and sustainable community growth within the next generation of blockchain-powered entertainment ecosystems.
 
 ---
 
-## 🏗️ Project Structure
+# ✨ Features
 
-### Frontend (Port: `3000`)
-
-* Game UI and wallet interactions
-* Real-time Socket.IO updates
-* User account dashboard
-
-### Admin Panel (Port: `5000`)
-
-* Game & user management
-* Live transaction monitoring
-* Platform analytics
-
-### Backend (Microservices)
-
-| Service                    | Port |
-| -------------------------- | ---- |
-| Main Server                | 5000 |
-| Admin Service              | 6100 |
-| Scissors Game              | 5200 |
-| Chatroom Service           | 4900 |
-| Management Service         | 4000 |
-| ... and more game services |      |
+- 🌌 Open World Metaverse
+- 🎮 Multiplayer Gameplay
+- 🔗 Solana Wallet Integration
+- 🪙 NFT Asset Ownership
+- 🛒 NFT Marketplace
+- ⚡ Real-Time Multiplayer Sync
+- 💬 Live Chat & Social Features 
+- 🏆 Global Leaderboards
+- 📊 Player Statistics
+- 🤖 AI-Powered Systems
+- 🎨 Modern Responsive UI
+- ☁️ Cloud-Ready Infrastructure
+- 🐳 Docker Deployment Support
 
 ---
 
-## 🚀 Getting Started
+# 🧠 Tech Stack
 
-### ✅ Prerequisites
+## Frontend
+- React 18
+- Next.js 16
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Three.js
+- Babylon.js
 
-* Node.js `v22.x` (Backend)
-* Node.js `v22.x` (Frontend & Admin)
-* Web crypto wallet (MetaMask, TrustWallet, etc.)
+## Backend
+- Node.js
+- Express.js
+- Socket.IO
+- TypeScript
 
-### 🧠 Backend Setup
+## Blockchain
+- Polygon
+- Web3.js
+- Wallet Adapter
 
-```bash
-npm install
+## Database
+- MongoDB
+- Redis
 
-# Start services
-npm start              # Main server
+## DevOps
+- Docker
+- AWS
+- Vercel
+- GitHub Actions
+
+---
+
+# 📁 Project Structure
+
+```text
+├───.vscode
+├───client
+│   ├───public
+│   └───src
+│       ├───apis
+│       ├───assets
+│       │   ├───fonts
+│       │   ├───game
+│       │   │   ├───cards
+│       │   │   └───cards-svg
+│       │   ├───icons
+│       │   └───img
+│       ├───components
+│       │   ├───buttons
+│       │   ├───cookies
+│       │   ├───decoration
+│       │   ├───forms
+│       │   ├───game
+│       │   │   ├───Betslider
+│       │   │   ├───BrandingImage
+│       │   │   └───Seat
+│       │   ├───icons
+│       │   ├───layout
+│       │   ├───loading
+│       │   ├───logo
+│       │   ├───modals
+│       │   ├───navigation
+│       │   ├───routing
+│       │   ├───typography
+│       │   └───user
+│       ├───context
+│       │   ├───game
+│       │   ├───global
+│       │   ├───localization
+│       │   ├───modal
+│       │   └───websocket
+│       ├───game
+│       ├───helpers
+│       ├───hooks
+│       ├───pages
+│       │   └───ConnectWallet
+│       ├───styles
+│       └───utils
+├───config
+├───controllers
+├───game
+├───middleware
+├───models
+├───routes
+│   └───api
+├───socket
+└───utils
 ```
 
-### 🎨 Frontend Setup
+---
+
+# 🛠️ Prerequisites
+
+Before starting, install the following:
+
+- Node.js v20+
+- npm or yarn
+- Git
+- MongoDB
+- Polygon
+- MataMask Wallet
+
+---
+
+# ▶️ Run the Application
+
+## 1. Open the Project Folder
+
+Open a terminal and navigate to the project root directory:
 
 ```bash
-cd client
+cd path\to\Blockdaemon-Demo-v3
+```
+
+Your terminal should look similar to:
+
+```text
+...\Blockdaemon-Demo-v3>
+```
+
+> **Note:** Run all commands below from the **project root folder** (`...\Blockdaemon-Demo-v3>`).
+
+---
+
+## 2. Check Your Node.js Version
+
+Verify your installed Node.js version:
+
+```bash
+node -v
+```
+
+- ✅ If your Node.js version is **v20.x–v25.x**, continue to the next step.
+- ⬆️ If your version is outside this range, update Node.js before proceeding.
+
+---
+
+## 3. Install Dependencies
+
+Install all required packages:
+
+```bash
 npm install
+```
+
+or
+
+```bash
+npm i
+```
+
+---
+
+## 4. Start the Application
+
+Run the project:
+
+```bash
 npm start
 ```
 
+---
+
+# 🌐 Access the Application
+
+Frontend:
+
+```text
+http://localhost:3000
+```
+
+Backend API:
+
+```text
+http://localhost:7777
+```
+# 🔗 Wallet Integration
+
+Blockdaemon supports:
+
+- MetaMask Wallet
+- Coinbase Wallet
+
+Players can securely:
+
+- Sign transactions
+- Own NFTs
+- Trade digital assets
+- Join multiplayer gameplay
 
 ---
 
-## 🛡️ Security Highlights
+# 🏗️ System Architecture
 
-* 🔐 JWT-based auth
-* 🧪 Two-Factor Authentication (2FA)
-* 🔗 Secure wallet integration
-* 🛑 DDoS Protection
-* ⚡ Rate Limiting
-
----
-
-## 🧱 Tech Stack
-
-* **Backend**: Node.js + Express.js
-* **Frontend**: React.js
-* **Database**: MongoDB
-* **Real-Time**: Socket.IO
-* **Blockchain**: Web3.js, Ethers.js, TronWeb
-* **Payments**: Tatum API
-
----
-
-## 🌉 Blockchain & API Integration
-
-* Multi-chain Web3 Providers
-* Native node access
-* Tatum for wallet & transaction processing
-
----
-
-## 📦 Key Features
-
-* 🔁 Real-time multiplayer gameplay
-* 👛 Multi-currency wallet support
-* 🗨️ Live chat
-* 📊 Game and transaction history
-* 🧾 Admin dashboard & analytics
-* ⚡ Instant crypto payouts
+```text
++----------------------+
+|      Frontend        |
+| React / Next.js      |
+| Three.js / Babylon   |
++----------+-----------+
+           |
+           v
++----------------------+
+|      Backend API     |
+| Node.js / Express    |
+| Socket.IO            |
++----------+-----------+
+           |
+           v
++----------------------+
+|      Blockchain      |
+| Solana / Web3.js     |
+| Smart Contracts      |
++----------+-----------+
+           |
+           v
++----------------------+
+|      Database        |
+| MongoDB / Redis      |
++----------------------+
+```
 
 ---
 
-## 🤝 Contributing
+# 🔐 Security
 
-1. Fork the repo 🍴
-2. Create your feature branch 🌱
-3. Commit changes 💾
-4. Push the branch 🚀
-5. Open a Pull Request ✅
+Blockdaemon follows modern Web3 security practices:
 
----
-
-
-## 🕹️ Games Included
-
-| Game               | Preview                                                                                      |
-| ------------------ | -------------------------------------------------------------------------------------------- |
-| **Staking**    | <img width="1440" height="1434" alt="Staking" src="https://github.com/user-attachments/assets/2df47f19-1d25-442f-b64c-6afae22894e9" /> |
-| **Sports Betting**         | <img width="1440" height="1024" alt="Sport betting" src="https://github.com/user-attachments/assets/0e11b8d1-8e6e-40dd-9221-3904ca941f9c" />    |
-| **Roulette**       | <img width="1440" height="1307" alt="Roulette" src="https://github.com/user-attachments/assets/c9248452-a199-4350-8e91-ce0d0394cd2f" />|
-| **Academy**  | <img width="1440" height="1529" alt="Academy" src="https://github.com/user-attachments/assets/4ec843a1-226c-483f-8e93-d08902686bde" />|
-| **Slot**            | <img width="1440" height="1119" alt="Slots" src="https://github.com/user-attachments/assets/7f1ac307-387c-457c-a0f3-9fe089cb8df8" /> |
+- Wallet-based authentication
+- Encrypted sessions
+- Protected APIs
+- Smart contract verification
+- Rate limiting
+- Infrastructure security
 
 ---
 
-## 📄 License
+# 🗺️ Roadmap
 
-This project is licensed under the **ISC License**.
-Feel free to build and contribute — responsibly and legally!
+- [x] Core Architecture
+- [x] Wallet Integration
+- [x] Multiplayer Support
+- [x] NFT Integration
+- [ ] NFT Marketplace
+- [ ] AI NPC Systems
+- [ ] DAO Governance
+- [ ] Mobile Application
+- [ ] VR Integration
+- [ ] Token Staking
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+## Steps
+
+1. Fork repository
+2. Create feature branch
+
+```bash
+git checkout -b feature/amazing-feature
+```
+
+3. Commit changes
+
+```bash
+git commit -m "Add amazing feature"
+```
+
+4. Push branch
+
+```bash
+git push origin feature/amazing-feature
+```
+
+5. Open Pull Request
+
+---
+
+# 📄 License
+
+MIT License
+
+---
+
+# 👨‍💻 Developer
+
+Built with passion by the Blockdaemon Team.
+
+---
+
+# 🙏 Acknowledgements
+
+- Polygon
+- React
+- Next.js
+- Three.js
+- Babylon.js
+- MongoDB
+- Tailwind CSS
+- Open Source Community
+
+---
+
+# ⚖️ Disclaimer
+
+This project is provided for educational and development purposes only.
+
+Users are responsible for compliance with local blockchain and digital asset regulations.
+
+---
+
+<p align="center">
+  🌌 Built for the Future of Web3 Gaming 🚀
+</p>
