@@ -1,11 +1,11 @@
-#  🌐 Blockdaemon Ecosystem
+#  🌐 Soramitsu Ecosystem
 
 
 # 🚀 Overview
 
- Blockdaemon is one of the leading blockchain infrastructure providers for enterprises and financial institutions. Rather than building consumer crypto applications, it provides the infrastructure that powers banks, exchanges, custodians, fintech companies, and Web3 developers.
+ Soramitsu is one of the leading blockchain infrastructure providers for enterprises and financial institutions. Rather than building consumer crypto applications, it provides the infrastructure that powers banks, exchanges, custodians, fintech companies, and Web3 developers.
 
-Our solutions combine cutting-edge Web3 technologies with engaging gaming experiences, creating scalable platforms for poker, betting, tournaments, and player-driven economies. Through decentralized infrastructure, transparent game mechanics, and secure digital transactions, Blockdaemon is helping shape the future of online gaming by fostering fairness, player ownership, and sustainable community growth within the next generation of blockchain-powered entertainment ecosystems.
+Our solutions combine cutting-edge Web3 technologies with engaging gaming experiences, creating scalable platforms for poker, betting, tournaments, and player-driven economies. Through decentralized infrastructure, transparent game mechanics, and secure digital transactions, Soramitsu is helping shape the future of online gaming by fostering fairness, player ownership, and sustainable community growth within the next generation of blockchain-powered entertainment ecosystems.
 
 ---
 
@@ -140,16 +140,16 @@ Before starting, install the following:
 Open a terminal and navigate to the project root directory:
 
 ```bash
-cd path\to\Blockdaemon-Demo-v3
+cd World-Game-v2-2026-08
 ```
 
 Your terminal should look similar to:
 
 ```text
-...\Blockdaemon-Demo-v3>
+...\World-Game-v2-2026-08>
 ```
 
-> **Note:** Run all commands below from the **project root folder** (`...\Blockdaemon-Demo-v3>`).
+> **Note:** Run all commands below from the **project root folder** (`...\World-Game-v2-2026-08>`).
 
 ---
 
@@ -207,7 +207,7 @@ http://localhost:7777
 ```
 # 🔗 Wallet Integration
 
-Blockdaemon supports:
+Soramitsu supports:
 
 - MetaMask Wallet
 - Coinbase Wallet
@@ -255,7 +255,7 @@ Players can securely:
 
 # 🔐 Security
 
-Blockdaemon follows modern Web3 security practices:
+Soramitsu follows modern Web3 security practices:
 
 - Wallet-based authentication
 - Encrypted sessions
@@ -318,7 +318,7 @@ MIT License
 
 # 👨‍💻 Developer
 
-Built with passion by the Blockdaemon Team.
+Built with passion by the Soramitsu Team.
 
 ---
 
