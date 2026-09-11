@@ -140,13 +140,13 @@ Before starting, install the following:
 Open a terminal and navigate to the project root directory:
 
 ```bash
-cd World-Game-v2-2026-08
+cd World-Racing
 ```
 
 Your terminal should look similar to:
 
 ```text
-...\World-Game-v2-2026-08>
+...\World-Racing>
 ```
 
 > **Note:** Run all commands below from the **project root folder** (`...\World-Game-v2-2026-08>`).
